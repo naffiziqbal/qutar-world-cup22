@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Css */
+
+body{
+    background: #0A101D;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn{
+    background: #fff;
+    height: 50px;
+    width: 25%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.left-section{
+    width: 50%;;
+}
+.right-section{
+    width: 50%;
+}
+
+.top-banner{
+    margin-top: 50px;
+    padding: 0 50px;
+    background: rgba(139, 126, 137, 0.205);
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.left-section{
+    font-size: 1rem;
+}
+
+.left-section p{
+    margin: 30px 0;
+    line-height: 2rem;
+}
+
