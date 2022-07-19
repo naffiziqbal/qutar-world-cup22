@@ -8,7 +8,7 @@
 
 body{
     background: #0A101D;
-    color: #fff;
+    color: #d4d4d4;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -27,10 +27,15 @@ h1{
     border: none;
     font-size: 1rem;
     border-radius: 10px;
+    transition: .3s ease;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
 }
 
 .left-section{
@@ -43,7 +48,7 @@ h1{
 .top-banner{
     margin-top: 50px;
     padding: 0 50px;
-    background: rgba(139, 126, 137, 0.205);
+    background: #8b7e8934;
     height: 60vh;
     display: flex;
     flex-wrap: wrap;
@@ -64,3 +69,15 @@ h1{
     line-height: 2rem;
 }
 
+
+
+
+
+
+
+/* Hover Effect */
+
+.btn:hover{
+    color: #f8f8f8;
+    background: #0A101D;
+}
