@@ -125,6 +125,15 @@ li #upcoming {
     -ms-transition: .3s ease;
     -o-transition: .3s ease;
 }
+li #blogs {
+    background: #22C778;
+    color: #fff;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
 
 .main-content-section{
     width: 80%;
