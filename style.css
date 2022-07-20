@@ -69,7 +69,9 @@ li, a{
 .left-section{
     font-size: 1rem;
 }
-
+.logo img{
+    width: 70px;
+}
 .left-section p{
     margin: 30px 0;
     line-height: 2rem;
