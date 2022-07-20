@@ -12,7 +12,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+.top-banner h1{
     font-weight: bold;
     font-size: 60px;
 }
@@ -57,7 +57,7 @@ li, a{
     background: #8b7e8934;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
@@ -142,8 +142,7 @@ li #blogs {
     display: grid;
     grid-template-columns: repeat(3, 34.4%);
     row-gap: 3%;
-
-
+    justify-items: center;
 }
 .content img{
     max-width: 275px;
@@ -226,7 +225,7 @@ footer{
     -o-transform: translate(-50%, -50%);
 }
 .lower-footer{
-    height: 150px;
+    height: 100%;
     text-align: center;
 }
 .social-media li {

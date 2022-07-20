@@ -1,11 +1,12 @@
 /* // Medium devices (tablets, less than 992px) */
-@media screen and (max-width: 992px) {
+@media screen and ( max-width: 1100px) {
 
     .container{
         max-width: 992px;
         margin: 0 auto;
     }
     .top-banner{
+        padding: 30px;
         margin-top: 20px;
         width: 90%;
         font-size: 14px;
@@ -17,6 +18,9 @@
     }
     .btn{
         width: 50%;
+    }
+    .btn-view{
+        display: block
     }
 
     .content-page{
@@ -64,20 +68,62 @@
 
 
   /* Small devices (landscape phones, less than 768px) */
-@media screen and (max-width: 786px) {
-    body {
-      background-color: rgb(5, 5, 5);
+@media screen and (max-width: 768px) {
+    .right-section{
+        width: 100%;
+        /* position: relative;
+        left: -15%; */
     }
+    .left-section{
+        width: 90%;
+    }
+    .logo img{
+        width: 30px;
+    }
+   .top-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
+  .top-banner h1{
+    font-size: 22px;
+  }
+  .btn-view{
+    width: 100px;
+  }
+  .content-nav ul{
+    display: flex;
+    flex-direction: column;
+}
+.contents{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1%;
+    margin-bottom: 30%;
+
+}
+
 
 
  /* X-Small devices (portrait phones, less than 576px) */
  @media screen and (max-width: 576px) {
-    body {
-      background-color: rgb(29, 204, 67);
+    .top-banner{
+        padding: 20px;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .left-section p{
+        line-height: 2rem;
+    }
+
+    .right-section{
+        width: 100%;
+        position: relative;
+        left: -15%;
     }
   }
-
-
-
+}
 
