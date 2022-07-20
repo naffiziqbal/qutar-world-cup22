@@ -22,6 +22,7 @@ body{
 }
 .btn{
     background: #fff;
+    margin: 20px 0;
     height: 50px;
     width: 25%;
     border: none;
@@ -74,6 +75,9 @@ li, a{
 .left-section p{
     margin: 30px 0;
     line-height: 2rem;
+}
+.right-section img{
+    width: 100%;
 }
 
 
@@ -229,7 +233,7 @@ footer{
     text-align: center;
 }
 .social-media li {
-    margin:0 30px;
+    margin:20px 30px;
     color: rgb(207, 202, 202);
     display: inline-block;
     transition: .3s ease;
@@ -301,9 +305,9 @@ li #upcoming:hover{
     gap: 25px;
 }
 .match{
-    width: 300px;
+    width: 250px;
     height: 150px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid ;
     text-align: center;
 }
