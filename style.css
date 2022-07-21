@@ -185,7 +185,7 @@ li #blogs {
 }
 
 .content li{
-    width: 20%;
+    width: 30%;
     transition: .3s ease;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
